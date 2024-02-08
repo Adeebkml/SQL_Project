@@ -2,7 +2,8 @@
 •	In this project I have analyzed Zomato Dataset based on Tables such as Sales, GoldUsers_Signup, Products and Users.
 
 Tables:
-• Sales Table.
+1) Sales Table.
+
 drop table if exists sales;
 CREATE TABLE sales(userid integer,created_date date,product_id integer); 
 
