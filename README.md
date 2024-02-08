@@ -26,6 +26,7 @@ INSERT INTO sales(userid,created_date,product_id)
 (2,'2018-09-10',3);
 
 2) GoldUsers_Signup Table:
+   
 drop table if exists goldusers_signup;
 CREATE TABLE goldusers_signup(userid integer,gold_signup_date date); 
 
@@ -34,6 +35,7 @@ INSERT INTO goldusers_signup(userid,gold_signup_date)
 (3,'2017-04-21');
 
 3) Products Table:
+
 CREATE TABLE product(product_id integer,product_name text,price integer); 
 
 INSERT INTO product(product_id,product_name,price) 
@@ -43,6 +45,7 @@ INSERT INTO product(product_id,product_name,price)
 (3,'p3',330);
 
 4) User Table:
+   
 INSERT INTO users(userid,signup_date) 
 VALUES (1,'2014-09-02'),
 (2,'2015-01-15'),
